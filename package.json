@@ -1,0 +1,14 @@
+{
+	"name": "js-exercises",
+	"version": "1.0.0",
+	"description": "JavaScript Exercises",
+	"main": "index.js",
+	"target": "es6",
+	"type": "module",
+	"scripts": {
+		"start-01": "npx tsx 01_ArrayFlatten/main.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
