@@ -2,11 +2,11 @@
 const urls = [];
 
 const NUMBER_OF_OBJECTS = 10_000;
-const NUMBER_OF_DIFFENT_FAKE_URLS = 1_000;
+const NUMBER_OF_DIFFERENT_FAKE_URLS = 1_000;
 
 // Generate a lot of random urls
 for (let i = 0; i < NUMBER_OF_OBJECTS; i++) {
-	const random = "" + Math.floor(Math.random() * NUMBER_OF_DIFFENT_FAKE_URLS) + 1;
+	const random = "" + Math.floor(Math.random() * NUMBER_OF_DIFFERENT_FAKE_URLS) + 1;
 	urls.push({ host: random, path: "/" });
 }
 
