@@ -1,9 +1,12 @@
 /** @type {(Array<{host: string, path: string}>)} */
 const urls = [];
 
+const NUMBER_OF_OBJECTS = 10_000;
+const NUMBER_OF_DIFFENT_FAKE_URLS = 1_000;
+
 // Generate a lot of random urls
-for (let i = 0; i < 10_000; i++) {
-	const random = "" + Math.floor(Math.random() * 1000) + 1;
+for (let i = 0; i < NUMBER_OF_OBJECTS; i++) {
+	const random = "" + Math.floor(Math.random() * NUMBER_OF_DIFFENT_FAKE_URLS) + 1;
 	urls.push({ host: random, path: "/" });
 }
 
