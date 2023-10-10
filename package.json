@@ -7,7 +7,7 @@
 	"type": "module",
 	"scripts": {
 		"start-01": "npx tsx 01_ArrayFlatten/main.ts",
-		"start-02": "npx tsx 02_DistinctArraysOfObjects/main.js"
+		"start-02": "node 02_DistinctArraysOfObjects/main.js"
 	},
 	"keywords": [],
 	"author": "",
