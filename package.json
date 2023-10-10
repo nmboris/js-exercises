@@ -6,7 +6,8 @@
 	"target": "es6",
 	"type": "module",
 	"scripts": {
-		"start-01": "npx tsx 01_ArrayFlatten/main.ts"
+		"start-01": "npx tsx 01_ArrayFlatten/main.ts",
+		"start-02": "npx tsx 02_DistinctArraysOfObjects/main.js"
 	},
 	"keywords": [],
 	"author": "",
